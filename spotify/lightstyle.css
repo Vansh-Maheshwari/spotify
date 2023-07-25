@@ -1,0 +1,213 @@
+    body {
+        background-color: #eeeeee;
+        height: 100%;
+        background-image: url('whiteback.gif')     ;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+       
+        font-family: 'Ubuntu', sans-serif;
+        
+    }
+
+
+        .navtop {
+          position: relative;
+            
+          overflow: hidden;
+         font-family: 'Alegreya Sans SC';
+          
+            font-size: 20px;
+            color: aliceblue;
+            text-align: right;
+        width: 80%;
+ 
+        height: 100px;
+             
+        }
+
+        .btn-group .button {
+            font-family: 'Alegreya Sans SC';
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: bold;
+
+      background-color: #0096FF ; 
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      cursor: pointer;
+      float: right;
+    }
+
+    .btn-group .button:hover {
+      background-color: #286aad;
+    }
+
+    .main {
+        background-color: #FAF9F6;
+        width: 400px;
+        height: 400px;
+        margin: 7em auto;
+        border-radius: 50%;
+        
+        box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.94);
+    }
+
+    .sign {
+        padding-top: 30px;
+        color: #2196F3;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        font-size: 45px;
+        margin-bottom: 0px;
+    }
+    
+    .un {
+    width: 76%;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.1);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 10px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    
+    form.form1 {
+        padding-top: 40px;
+    }
+    
+    .pass {
+            width: 76%;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.1);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 45px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    
+   
+    .un:focus, .pass:focus {
+        border: 2px solid rgba(0, 0, 0, 0.18) !important;
+        
+    }
+    
+    .submit {
+        
+      cursor: pointer;
+        border-radius: 20px;
+        color: #fff;
+        background: #0096FF;
+        border: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Alegreya Sans SC';
+        
+        margin-left: 39%;
+        font-size: 20px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+        
+    }
+    
+    .forgot {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 11px;
+        text-shadow: 0px 0px 3px rgba(1 17, 117, 117, 0.12);
+        color:#ffffff;
+        padding-top: 30px;
+    }
+    
+    a {
+        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+        color: #2194f3;
+        text-decoration: none
+    }
+    .leftfoot {
+          background-color: #0096FF             ;
+          padding: 20px;
+          float: left;
+          width: 30%; 
+        height: 100px;
+        color: white;
+        }
+
+        .mainfoot {
+          background-color: transparent;
+          padding: 20px;
+          float: left;
+          width: 30%; /
+            height: 100;
+            color:black;
+        }
+
+
+    footer {
+        background-color: #000000;
+        float: right;
+        color: white;
+    padding: 20px;
+        width: 30%;
+    text-align: right;
+     height:100;  
+    
+    }
+    
+    @media (max-width: 600px) {
+        .main {
+            border-radius: 0px;}
+        
+          .topnav a, .topnav-right {
+ 
+                        width: 100%;
+  }
+  
+
+    .leftfoot, .mainfoot, footer{
+    width: 100%;
+  }   
+        
+        .btn-group .button {
+            
+            width:100%;
+            margin: auto;
+            
+        }
+        
+        .navtop {
+            
+            WIDTH:100%;
+            height: 300PX;
+            
+        }
+        
+        }
+        
+        
